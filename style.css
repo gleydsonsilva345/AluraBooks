@@ -1,9 +1,9 @@
 :root{
-    --cor-de-fundo: #ebebeb; 
+    --cor-de-fundo:var(--cor-de-fundo);
 }
 body{
-    background-color: var(--cor-de-fundo)
+    background-color: var(--cor-de-fundo);
 }
 h1{
-    background-color: white
+    background-color: white;
 }
