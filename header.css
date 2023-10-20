@@ -24,11 +24,6 @@
     display: inline-block;
 }
 
-.lista-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-}
 
 .container_botao:checked ~ .lista-menu{
     display: block;
@@ -38,13 +33,9 @@
     color: var(--laranja);
     font-weight: 700;
 }
-.lista-menu_item{
-    padding: 1em;
-    background-color: var(--branco);
-}
 .lista-menu_link{
     background: var(--azul-degrade);
-    -webkit-background-clip: text;   
+    --webkit-background-clip: text;   
 }
 body {
     background-color: var(--cor-de-fundo);
@@ -56,24 +47,10 @@ body {
     display: none;
 }
 
-.lista-menu__titulo,
-.lista-menu__item{
-padding: 1em;
-background-color: var(--branco);
-}
 
-.lista-menu__titulo {
-    color: var(--laranja);
-}
-
-.lista-menu__titulo,
 .lista-menu__item {
 padding: 1em;
 background-color: var(--branco);
-}
-
-.lista-menu__titulo {
-    color: var(--laranja);
 }
 
 .lista-menu__link {
